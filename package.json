@@ -1,0 +1,42 @@
+{
+  "name": "motivaai-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram Bot for MotivaAi ~> https://motivaai.nandomoreira.me/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "now",
+    "release": "now --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandomoreirame/motivaai-telegram-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "motiva",
+    "motivaai",
+    "telegram"
+  ],
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/nandomoreirame/motivaai-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/nandomoreirame/motivaai-telegram-bot#readme",
+  "dependencies": {
+    "botgram": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "slugify": "^1.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}
