@@ -11,8 +11,6 @@ if (!TELEGRAM_BOT_TOKEN) {
   process.exit(1);
 }
 
-// curl -F "url=https://motivaai-telegram-bot.now.sh/start_bot" https://api.telegram.org/bot776009588:AAFAw4wv3tzNA_4WTdVDyBBcbAFZarWu3YQ/setWebhook
-
 const motivaBot = new Botgram(TELEGRAM_BOT_TOKEN);
 const helpMessage = 'Para exibir a *frase do dia* digite o comando: /motiva ou /motivaai';
 
