@@ -1,6 +1,6 @@
 {
   "name": "motivaai-telegram-bot",
-  "version": "1.0.0",
+  "version": "0.1.0-alpha",
   "description": "A Telegram Bot for MotivaAi ~> https://motivaai.nandomoreira.me/",
   "main": "index.js",
   "scripts": {
